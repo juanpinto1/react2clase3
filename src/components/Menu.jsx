@@ -1,8 +1,6 @@
 import { Navbar } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import pokeicon from "../img/poke-icon.svg";
-
-
 const Menu = () => {
   return (
     <Navbar
@@ -13,6 +11,7 @@ const Menu = () => {
       <Navbar.Brand>
         <img
           width="50"
+          height="50"
           src={pokeicon}
           alt=""
         />
